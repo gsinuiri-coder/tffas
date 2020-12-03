@@ -21,6 +21,8 @@ dependencies {
 	compile group: 'org.modelmapper', name: 'modelmapper', version: '2.3.9'
 // https://mvnrepository.com/artifact/org.modelmapper.extensions/modelmapper-spring
 	compile group: 'org.modelmapper.extensions', name: 'modelmapper-spring', version: '2.3.9'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.4.0'
 
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
